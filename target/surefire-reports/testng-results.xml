@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="76852" started-at="2020-10-14T18:34:23Z" finished-at="2020-10-14T18:35:40Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="76852" started-at="2020-10-14T18:34:23Z" finished-at="2020-10-14T18:35:40Z">
+      <class name="com.saucelabs.example.TestSetup">
+        <test-method status="PASS" signature="testNetworkSpeed(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.example.TestSetup@3bfdc050]" name="testNetworkSpeed" duration-ms="59270" started-at="2020-10-14T11:34:23Z" data-provider="devices" finished-at="2020-10-14T11:35:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone.*]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.saucelabs.example.TestSetup.testNetworkSpeed(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNetworkSpeed -->
+        <test-method status="PASS" signature="testNetworkSpeed(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.example.TestSetup@3bfdc050]" name="testNetworkSpeed" duration-ms="74575" started-at="2020-10-14T11:34:23Z" data-provider="devices" finished-at="2020-10-14T11:35:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone.*]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.saucelabs.example.TestSetup.testNetworkSpeed(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNetworkSpeed -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.example.TestSetup@3bfdc050]" name="tearDown" is-config="true" duration-ms="2807" started-at="2020-10-14T11:35:22Z" finished-at="2020-10-14T11:35:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNetworkSpeed status=SUCCESS method=TestSetup.testNetworkSpeed(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.example.TestSetup@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.example.TestSetup@3bfdc050]" name="tearDown" is-config="true" duration-ms="2257" started-at="2020-10-14T11:35:38Z" finished-at="2020-10-14T11:35:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNetworkSpeed status=SUCCESS method=TestSetup.testNetworkSpeed(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.example.TestSetup@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucelabs.example.TestSetup -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

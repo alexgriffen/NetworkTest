@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" verbose="0" name="Failed suite [Surefire suite]" parallel="methods">
+  <test name="Surefire test(failed)" parallel="methods">
+    <classes>
+      <class name="com.saucelabs.example.TestSetup">
+        <methods>
+          <include name="testNetworkSpeed" invocation-numbers="1 0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.saucelabs.example.TestSetup -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
